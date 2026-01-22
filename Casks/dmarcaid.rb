@@ -3,7 +3,7 @@ cask "dmarcaid" do
   name "dmarcaid"
   desc "CLI tool for parsing and analyzing DMARC, TLS-RPT, and forensic reports"
   homepage "https://github.com/kidager/dmarcaid"
-  version "1.0.0"
+  version "1.0.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "dmarcaid" do
   on_macos do
     on_intel do
       url "https://github.com/kidager/dmarcaid/releases/download/v#{version}/dmarcaid_Darwin_x86_64.tar.gz"
-      sha256 "8ce453680ac4968aa31c07658c7ea1adecf4a152227c43fdfeefc6d574371b7e"
+      sha256 "89e8b86afc8e44a47976120aeffe214df9a7e351879215b82738e7639368a977"
     end
     on_arm do
       url "https://github.com/kidager/dmarcaid/releases/download/v#{version}/dmarcaid_Darwin_arm64.tar.gz"
-      sha256 "64ac6295e585426a8c0dc08414ef3baafe5e1220e1993369f15bd3d39659939c"
+      sha256 "221031ec0f819e7766bd9b0f66ccd36b1de9294eaa4b760abe3955db9965a47e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kidager/dmarcaid/releases/download/v#{version}/dmarcaid_Linux_x86_64.tar.gz"
-      sha256 "6643f540a5d46203552ef14c52b43e99aeb0433fa4a347b8c8e0090c52b6124d"
+      sha256 "b8996b4fcf75e829bf918b39fe5ce7ca103ded422f4e5bf0b32585eccba21146"
     end
     on_arm do
       url "https://github.com/kidager/dmarcaid/releases/download/v#{version}/dmarcaid_Linux_arm64.tar.gz"
-      sha256 "e25a7e3396a7bc8b6d200a57c35e9cc04caf5a584890f0e219b00a608296be50"
+      sha256 "6d9e0036dea4b1239a78d671e5a3a0e895dbe42f0890ea48797ce24c815f8913"
     end
   end
 
